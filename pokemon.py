@@ -9,6 +9,7 @@ for anchor in soup.find_all('a'):
         k=str(anchor.string)
         if k[0]=="#":
             L=str(anchor.string).split(" ")[1:]
-            print " ".join(L)
+            print " ".join(L).replace('"','').replace('(','').replace(')','').replace(' ','').replace("'",'').replace(".",'')
+
         
     except:pass

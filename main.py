@@ -42,6 +42,10 @@ if(argc<1)
 printf("No pokemon entered");
 }
 string s=argv[1];
+for(int i=0;i<s.length();i++)
+{
+s[i]=tolower(s[i]);
+}
 print(s);
 """
 
