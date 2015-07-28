@@ -11,3 +11,4 @@ You can find pokemon name from POKEMONLIST.txt
 Enjoy
 
 Inspired from https://github.com/gokul-uf/woodo-sudo
+ASCII art from : http://www.fiikus.net/?pokedex
